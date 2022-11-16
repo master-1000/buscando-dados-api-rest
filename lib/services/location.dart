@@ -28,7 +28,7 @@ class Location {
     }
   }
 
-  void getCurrentLocation() async {
+  Future<void> getCurrentLocation() async {
     // Verificando permissão de acesso
     await checkLocationPermission();
 
