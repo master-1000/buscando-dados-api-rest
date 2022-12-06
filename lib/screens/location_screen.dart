@@ -35,8 +35,6 @@ late int temperature;
     updateUI(widget.localWeatherData);
   }
 
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
